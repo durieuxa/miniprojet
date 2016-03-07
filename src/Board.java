@@ -1,12 +1,12 @@
 // TODO detail comment
 /**
- * A hotjava game board.
- * tile: 7 by 7
+ * A hotjava game board (7x7 grid with starting and ending case, contain element)
  */
 public class Board 
 { 
 	/**
-	 * Creates a new board, 7 by 7, with an input, an output and random pipes.
+	 * Create a new default board (a grid that contain element).
+	 * Element are Hidden or Discovered.
 	 */
 	public Board()
 	{

@@ -1,6 +1,7 @@
 // TODO update comment (find a link to an web description, in english, of the game)
 /**
  * A Hotjava game
+ * ( http://toomkygames.com/download-free-games/hot-java )
  * 
  */
 public class Hotjava 
@@ -12,7 +13,7 @@ public class Hotjava
 
 	// TODO update comment, explain what "default board" mean
 	/**
-	 * Return a new Hotjava game, with default board, ready to be played
+	 * Return a new Hotjava game, with a default board
 	 */
 	public Hotjava()
 	{
@@ -20,7 +21,7 @@ public class Hotjava
 	}
 	
 	// TODO update comment, explain what is the main algorithm
-	 * Plays the game
+	 /** Plays the game, wait for user's action.
 	 */
 	public void play() 
 	{
