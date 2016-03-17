@@ -1,10 +1,9 @@
-// TODO update comment (find a link to an web description, in english, of the game)
 /**
- * A Hotjava game
- * ( http://toomkygames.com/download-free-games/hot-java )
+ * A Hotjava game ( http://toomkygames.com/download-free-games/hot-java )
  * 
  */
-public class Hotjava 
+// TODO rename this class
+public class Hotjava
 {
 	/**
 	 * the board
@@ -19,13 +18,14 @@ public class Hotjava
 	{
 		this.board = new Board();
 	}
-	
+
 	// TODO update comment, explain what is the main algorithm
-	 /** Plays the game, wait for user's action.
+	/**
+	 * Plays the game, wait for user's action.
 	 */
-	public void play() 
+	public void play()
 	{
-		
+
 	}
 
 }
