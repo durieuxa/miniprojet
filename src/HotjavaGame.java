@@ -10,6 +10,9 @@ public class HotjavaGame
 	private Board board;
 	
 	// TODO write comment
+	/**
+	 * the player
+	 */
 	private Player player;
 
 	// TODO update comment, explain what "default board" mean
@@ -45,8 +48,18 @@ public class HotjavaGame
 		while(gameover == false)
 		{
 			Player.action();
-			while()
+			while(Player.valid == false)
+			{
+				
+			}
+			UpdateCoffee();
 		}
+	}
+
+	
+	private void UpdateCoffee() 
+	{
+		
 	}
 
 }
