@@ -2,18 +2,19 @@
  * A Hotjava game ( http://toomkygames.com/download-free-games/hot-java )
  * 
  */
-// TODO rename this class
 public class HotjavaGame
 {
 	/**
 	 * the board
 	 */
 	private Board board;
+	
+	// TODO write comment
 	private Player player;
 
 	// TODO update comment, explain what "default board" mean
 	/**
-	 * Return a new Hotjava game, with a board full of pipes choose randomly, hide or discover, 
+	 * Return a new Hotjava game, with a board full of pipes choose randomly, hidden or discovered, 
 	 * contain also a starting and an ending case. Player is ready to play.
 	 */
 	public HotjavaGame()
@@ -21,8 +22,7 @@ public class HotjavaGame
 		this.board = new Board();
 		this.player = new Player();
 	}
-
-	// TODO update comment, explain what is the main algorithm
+	
 	/**
 	 * Plays the game, wait for user's action and do the instruction.
 	 * each user's action decrease the cooldown before the coffee start.
