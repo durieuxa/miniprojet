@@ -9,13 +9,11 @@ public class HotjavaGame
 	 */
 	private Board board;
 	
-	// TODO write comment
 	/**
 	 * the player
 	 */
 	private Player player;
 
-	// TODO update comment, explain what "default board" mean
 	/**
 	 * Return a new Hotjava game, with a board full of pipes choose randomly, hidden or discovered, 
 	 * contain also a starting and an ending case. Player is ready to play.
@@ -56,7 +54,7 @@ public class HotjavaGame
 		}
 	}
 
-	
+	// TODO rename method (coding conventions)
 	private void UpdateCoffee() 
 	{
 		
